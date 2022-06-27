@@ -14,7 +14,7 @@ function Carte() {
         <Landing data={landingData[1]} />
       </section>
 
-      <section className="carte_container">
+      <section className="main_container">
         <div className="boissons_container">
           <button type="button" onClick={() => setType("Cocktails")}>
             Cocktails

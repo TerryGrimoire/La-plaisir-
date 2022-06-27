@@ -24,7 +24,7 @@ const landingData = [
   {
     img: contact,
     alt: "telephone vintage allongé sur le sol",
-    title: "Nous contacter",
+    title: "Retrouvez nous sur place ou sur les réseaux sociaux",
   },
 ];
 
