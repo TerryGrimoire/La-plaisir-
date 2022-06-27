@@ -1,15 +1,11 @@
 import React from "react";
-import evenements from "../assets/evenements.png";
+import Landing from "../components/Landing";
+import landingData from "../data/landingData";
 
 function Evenements() {
   return (
     <section>
-      <img
-        src={evenements}
-        alt="Dj super classe et vintage qui mixte"
-        className="img_basic "
-      />
-      <h2 className="accueil_citation">Nos évènements</h2>
+      <Landing data={landingData[2]} />
     </section>
   );
 }

@@ -1,15 +1,11 @@
 import React from "react";
-import contact from "../assets/contact.png";
+import Landing from "../components/Landing";
+import landingData from "../data/landingData";
 
 function Contact() {
   return (
     <section>
-      <img
-        src={contact}
-        alt="telephone vintage allongé sur le sol"
-        className="img_basic"
-      />
-      <h2 className="accueil_citation">Nous contacter</h2>
+      <Landing data={landingData[3]} />
     </section>
   );
 }
