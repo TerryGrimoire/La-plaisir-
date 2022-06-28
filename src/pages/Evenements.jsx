@@ -46,7 +46,7 @@ function Evenements() {
                 className="img_basic border_radius"
               />
               <p>{element.date}</p>
-              <a href={element.lien} target="_blank" rel="noreferrer">
+              <a href={element.lien}>
                 <button type="button" className="button">
                   lien vers l'évènement
                 </button>

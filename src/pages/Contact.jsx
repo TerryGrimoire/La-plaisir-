@@ -13,25 +13,13 @@ function Contact() {
       </section>
       <div className="main_container">
         <div className="flex_space_evenly">
-          <a
-            href="https://www.facebook.com/LaPlaisirBistrotQueer/"
-            target="_blank"
-            rel="noreferrer"
-          >
+          <a href="https://www.facebook.com/LaPlaisirBistrotQueer/">
             <img src={facebook} alt="logo Facebook" />
           </a>
-          <a
-            href="https://www.instagram.com/laplaisir_bistrotqueer/"
-            target="_blank"
-            rel="noreferrer"
-          >
+          <a href="https://www.instagram.com/laplaisir_bistrotqueer/">
             <img src={instagram} alt="logo Instagram" />
           </a>
-          <a
-            href="mailto:labellepoulenantes@protonmail.com"
-            target="_blank"
-            rel="noreferrer"
-          >
+          <a href="mailto:labellepoulenantes@protonmail.com">
             <img src={email} alt="logo enveloppe pour email" />
           </a>
         </div>
