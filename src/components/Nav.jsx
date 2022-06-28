@@ -11,16 +11,16 @@ function Nav({ navOpen, setNavOpen }) {
       <nav>
         <ul>
           <Link to="/">
-            <li>Accueil</li>
+            <li>ACCUEIL</li>
           </Link>
           <Link to="/Carte">
-            <li>Carte</li>
+            <li>CARTE</li>
           </Link>
           <Link to="/Evenements">
-            <li>Evenements</li>
+            <li>EVENEMENTS</li>
           </Link>
           <Link to="/Contact">
-            <li>Contact</li>
+            <li>CONTACT</li>
           </Link>
         </ul>
       </nav>

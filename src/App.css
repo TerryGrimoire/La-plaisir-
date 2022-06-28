@@ -1,11 +1,14 @@
 /*__________________________________________________________________________ imports fonts __________________________________________________________________________*/
+@import url('https://fonts.googleapis.com/css2?family=Philosopher&display=swap');
+
 /*__________________________________________________________________________ Variables CSS __________________________________________________________________________*/
 :root {
-  --main-color: #1310B7;
+  --main-color:#0F2485;
   --secondary-color : pink; 
   --text-color: #f1f1f1;
   --border-radius: 0.5rem;
   --box-shadow: rgba(3, 102, 214, 0.3) 0px 0px 0px 3px;
+
 
 }
 /*__________________________________________________________________________ Basique mise en forme __________________________________________________________________________ */
@@ -24,6 +27,7 @@
 
 body {
   background-color: var(--main-color);
+  background: linear-gradient(to bottom, #8e2de2, #4a00e0);
 }
 
 section {
@@ -38,6 +42,10 @@ article {
 article h3 {
   font-size: 2.5rem;
   margin-bottom: 1.5rem;
+}
+
+h1, h2, h3 {
+  font-family: 'Philosopher', sans-serif;
 }
 
 /*__________________________________________________________________________ Nav __________________________________________________________________________ */
@@ -68,6 +76,8 @@ article h3 {
   justify-content: space-around;
   align-items: center;
   animation : open 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+  font-family: 'Philosopher', sans-serif;
+
 }
 
 @keyframes open {

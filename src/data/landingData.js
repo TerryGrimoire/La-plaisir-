@@ -14,7 +14,7 @@ const landingData = [
     img: carte,
     alt: "bouteilles de vin et fromage sur une table",
     title:
-      "Une carte selectionné avec amour et goût pour toujours plus de plaisir",
+      "Une carte selectionnée avec amour et goût pour toujours plus de plaisir",
   },
   {
     img: evenements,

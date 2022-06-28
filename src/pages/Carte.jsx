@@ -32,7 +32,7 @@ function Carte() {
             Soft maison
           </button>
           <button type="button" onClick={() => setType("Soft")}>
-            Autre Soft
+            Soft Bouteille
           </button>
           <button
             type="button"
