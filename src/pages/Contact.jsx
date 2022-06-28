@@ -13,13 +13,25 @@ function Contact() {
       </section>
       <div className="main_container">
         <div className="flex_space_evenly">
-          <a href="https://www.facebook.com/LaPlaisirBistrotQueer/">
+          <a
+            href="https://www.facebook.com/LaPlaisirBistrotQueer/"
+            target="_blank"
+            rel="noreferrer"
+          >
             <img src={facebook} alt="logo Facebook" />
           </a>
-          <a href="https://www.instagram.com/laplaisir_bistrotqueer/">
+          <a
+            href="https://www.instagram.com/laplaisir_bistrotqueer/"
+            target="_blank"
+            rel="noreferrer"
+          >
             <img src={instagram} alt="logo Instagram" />
           </a>
-          <a href="mailto:labellepoulenantes@protonmail.com">
+          <a
+            href="mailto:labellepoulenantes@protonmail.com"
+            target="_blank"
+            rel="noreferrer"
+          >
             <img src={email} alt="logo enveloppe pour email" />
           </a>
         </div>
@@ -37,8 +49,8 @@ function Contact() {
         <div className="contact_container">
           <h3 className="titre_centre"> Nous trouver </h3>
           <p>
-            57 Bd Victor Hugo, 44200, Nantes
-            <span className="contact_tram"> Tramway Mangin, Ligne 2 | 3</span>
+            57 Bd Victor Hugo, 44200, Nantes,
+            <span className="contact_tram"> Tram Mangin, Ligne 2 | 3</span>
           </p>
         </div>
 

@@ -19,7 +19,7 @@ const landingData = [
   {
     img: evenements,
     alt: "Dj super classe et vintage qui mixte",
-    title: "Nos évènements",
+    title: "Nos soirées et évènements",
   },
   {
     img: contact,

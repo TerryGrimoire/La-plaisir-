@@ -29,10 +29,6 @@ section {
   width: 100vw;
 }
 
-.landing_section {
-  height: 100vh;
-}
-
 article {
   padding: 0 2rem 3rem;
   font-size: 1.4rem;
@@ -107,8 +103,9 @@ nav ul > * {
   box-shadow: var(--box-shadow);
 }
 .accueil_citation {
-  padding: 3rem;
+  padding: 3rem 1.5rem;
   text-align: end;
+  margin-bottom: 2rem ;
   }
 /*__________________________________________________________________________ Carte __________________________________________________________________________ */
 
@@ -158,6 +155,30 @@ margin-bottom: 3rem;
  text-align: right;
 }
 /*__________________________________________________________________________ Evenements __________________________________________________________________________ */
+
+.event_container {
+  margin: 0 0 3rem;
+  text-align: center;
+}
+
+.event_container * {
+  margin: 0 0 1rem;
+}
+
+.button {
+  background-color: var(--main-color);
+  color: var(--text-color);
+  padding: 0.25rem 0.5rem;
+  font-size: 1rem;
+  border-radius: var(--border-radius);
+  border: none;
+  box-shadow: var(--box-shadow);
+  width: 80%;
+}
+
+.border_radius {
+  border-radius: var(--border-radius);
+}
 /*__________________________________________________________________________ Contact __________________________________________________________________________ */
 .titre_centre {
   text-align: center;
@@ -197,5 +218,5 @@ iframe {
 }
 
 .contact_container .contact_tram {
-  font-size: 0.85rem;
+  font-size: 0.7rem;
 }
