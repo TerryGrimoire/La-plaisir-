@@ -16,9 +16,10 @@
   padding: 0;
   text-decoration: none;
   color: initial;
-  overflow: hidden;
   color: var(--text-color);
   font-size: 1.4rem;
+  list-style-type: none;
+
 }
 
 body {
@@ -52,7 +53,7 @@ article h3 {
 }
 
 .img_burger img {
-  width: 5rem;
+  width: 3rem;
 }
 
 .hidden {
