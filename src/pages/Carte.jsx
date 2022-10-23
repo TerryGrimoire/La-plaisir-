@@ -42,12 +42,13 @@ function Carte() {
             Boissons Chaudes
           </button>
         </div>
-
-        {carteData
-          .filter((el) => el.type === type)
-          .map((data) => (
-            <Boisson data={data} />
-          ))}
+        <div className="carte_container">
+          {carteData
+            .filter((el) => el.type === type)
+            .map((data) => (
+              <Boisson data={data} />
+            ))}
+        </div>
       </section>
     </div>
   );
