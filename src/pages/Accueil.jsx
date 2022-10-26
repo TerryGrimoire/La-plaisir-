@@ -4,7 +4,14 @@ import landingData from "../data/landingData";
 
 function Accueil() {
   return (
-    <section>
+    <section className="relative">
+      <div className="desktop">
+        <h2>Version web en construction</h2>
+        <p>
+          En attendant, vous pouvez visiter la version mobile depuis votre
+          téléphone portable
+        </p>
+      </div>
       <Landing data={landingData[0]} />
       <article>
         <h3> Notre histoire </h3>
