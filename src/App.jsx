@@ -19,8 +19,8 @@ function App() {
       <Burger navOpen={navOpen} setNavOpen={setNavOpen} />
       <Routes>
         <Route path="/" element={<Accueil />} />
-        <Route path="/Carte" element={<Carte />} />
-        <Route path="/Evenements" element={<Evenements />} />
+        <Route path="/Carte" element={<Evenements />} />
+        <Route path="/Evenements" element={<Carte />} />
         <Route path="/Contact" element={<Contact />} />
       </Routes>
     </Router>

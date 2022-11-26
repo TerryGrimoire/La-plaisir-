@@ -1,28 +1,23 @@
-import plaisir from "../assets/La_plaisir.jpg";
-import carte from "../assets/carte.png";
-import evenements from "../assets/evenements.png";
-import contact from "../assets/contact.png";
-
 const landingData = [
   {
-    img: plaisir,
+    img: "https://picsum.photos/500",
     alt: "Logo de La plaisir, une statue nue avec à gauche le nom de La plaisir Bistrot queer",
     title:
       "Un bistrot dans lequel l’utopie est pensable et l’idéal réalisable.",
   },
   {
-    img: carte,
+    img: "https://picsum.photos/500",
     alt: "bouteilles de vin et fromage sur une table",
     title:
       "Une carte selectionnée avec amour et goût pour toujours plus de plaisir",
   },
   {
-    img: evenements,
+    img: "https://picsum.photos/500",
     alt: "Dj super classe et vintage qui mixte",
-    title: "Nos soirées et évènements",
+    title: "Une carte selectionnée avec amour et soin",
   },
   {
-    img: contact,
+    img: "https://picsum.photos/500",
     alt: "telephone vintage allongé sur le sol",
     title: "Retrouvez nous sur place ou sur les réseaux sociaux",
   },

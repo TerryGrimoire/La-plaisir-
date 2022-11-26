@@ -3,7 +3,7 @@
 
 /*__________________________________________________________________________ Variables CSS __________________________________________________________________________*/
 :root {
-  --main-color:#0F2485;
+  --main-color:#282828;
   --secondary-color : pink; 
   --text-color: #f1f1f1;
   --border-radius: 0.5rem;
@@ -27,7 +27,6 @@
 
 body {
   background-color: var(--main-color);
-  background: linear-gradient(to bottom, #8e2de2, #4a00e0);
 }
 
 section {
@@ -47,12 +46,28 @@ article h3 {
 h1, h2, h3 {
   font-family: 'Philosopher', sans-serif;
 }
+h4 {
+  font-size: 1rem;
+}
+.flex {
+  display: flex;
+  justify-content: space-between;
+}
 
+p {
+  font-size: 0.8rem;
+  text-align: left;
+  padding: 0 0.5rem;
+}
+small {
+  font-size: 0.8rem;
+}
 /*__________________________________________________________________________ Nav __________________________________________________________________________ */
 .img_burger {
   position: absolute;
   top: 0.1rem;
   left: 0.15rem;
+  z-index: 2;
 }
 
 .no_button {

@@ -39,18 +39,17 @@ function Evenements() {
         {events.length > 0 &&
           events.map((element) => (
             <div className="event_container">
-              <h4>{element.nom}</h4>
-              <img
-                src={element.image}
-                alt={element.nom}
-                className="img_basic border_radius"
-              />
-              <p>{element.date}</p>
-              <a href={element.lien}>
-                <button type="button" className="button">
-                  lien vers l'évènement
-                </button>
-              </a>
+              <div className="flex">
+                <h4>{element.nom}</h4>
+                <small>{element.prix}</small>
+              </div>
+              <div>
+                <p> {element.description}</p>
+              </div>
+              <div className="flex">
+                <h4>{element.desserts}</h4>
+                <small>{element.price}</small>
+              </div>
             </div>
           ))}
       </div>
